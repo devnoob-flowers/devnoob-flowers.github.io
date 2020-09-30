@@ -1,0 +1,16 @@
+h1, p, h3 {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Scope One', serif;    
+}
+
+.thumbnail-circle {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.center-text {
+    text-align: center;
+}
+
