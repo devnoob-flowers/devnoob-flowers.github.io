@@ -4,10 +4,13 @@ h1, p, h3 {
 }
 
 .thumbnail-circle {
+    border-radius: 50%;
+} 
+
+.thumbnail-border {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    border-radius: 50%;
 }
 
 .center-text {
