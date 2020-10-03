@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Stylesheet link -->
+    <link href="app.css" rel="stylesheet">
+
+    <!--- Stylesheet for overriding css -->
+    <link href="custom.css" rel="stylesheet">
+    <link href="card.css" rel="stylesheet">
+
+
+
+    <!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- News Fonts --->
+    
+    <!---(Noto Serif JP) -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!-- (Scope One)-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Scope+One&display=swap" rel="stylesheet">
+
+    <title>(Actual) Sh*t They Say</title>
+  </head>
+  <body>
+    <!----- need to write links to different pages -->
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+        </ul>
+      
+        <div class="card text-center">
+                <div class="jumbotron bg-primary">
+                    <h1 class="text-bold text-light title-text">(Actual) Sh*t They Say</h1>
+                    <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
+                </div>
+            <!--------- <a href="#" class="btn btn-primary">Next</a> --->
+            <!---- 
+            <div class="card-footer text-muted">
+            2 days ago
+            </div> ---->
+        </div>
+
+        <!---- profile pictures  with name and funny interjecture 
+            1st photo on left second on right third on left etc etc-->
+
+        <!--- Donald Trump Card-->
+        <div class="container">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                        <img class="img-responive thumbnail-circle" src="media-files/trump-scary.jpg" alt="bright-orange-man" height="250" width="250">
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-8">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="text-left text-light subject-name-right btn bg-primary">Donald J. Trump</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Can you believe the Sh*t Trump just said?</p>
+                        <a href="trumpsays.html" class="btn btn-primary">Click here for Trump quotes</a>
+                    </blockquote>            
+                </div>
+            </div>
+        </div>
+
+        <!---- Joe Biden Card -->
+        <div class="container">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <!--- when on smaller screen, the subject name moves to the top of the photo becuase of the col arragnment. We must find a way to make the subject name go beneath the photo. 
+                        Potential a  nested container with alignment??? 
+                        Maybe flex  ------->
+                        <div class="col-sm-8">
+                            <!--- need to wrap this in a link to the page -->
+                            <p class="text-left text-light subject-name-right btn bg-primary">Joe Biden</p>
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                            <img class="img-responive thumbnail-circle" src="media-files/biden-confused.jpg" alt="bright-orange-man" height="250" width="250">
+                            <br>
+                            <br>
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                            <blockquote class="blockquote mb-0">
+                                <p>Joe, what the hell are you talking about?</p>
+                                <!---- maybe i can align this to the right in order to keep the proper spacing between these two components ---->
+                                <a href="bidensays.html" class="btn btn-primary align-right">Click here for Biden quotes</a> 
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---- barack obama card --->
+        <div class="container">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                        <img class="img-responive thumbnail-circle" src="media-files/barack-bigsmile.jpg" alt="barack obama" height="250" width="250">
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-8">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="text-left text-light subject-name-right btn bg-primary">Barack Obama</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Arguably the coolest American --- wait, is he American?</p>
+                        <a href="#" class="btn btn-primary">Coming Soon</a>
+                    </blockquote>            
+                </div>
+            </div>
+        </div>
+        <!---------- 
+        <div class="row">
+            <div class="col-9">
+                
+            </div>
+            <div class="col-3">
+                <div class="card-body">
+                        <a href="#" class="btn btn-primary">Click here for Biden quotes</a>
+                </div> 
+            </div>
+        </div> 
+                    ---------->
+    </div>
+
+      <!----- need to refractor and clean this up ^^^^^ -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
