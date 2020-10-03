@@ -30,108 +30,126 @@
   </head>
   <body>
     <!----- need to write links to different pages -->
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active text-dark" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Contact</a>
-      </li>
-    </ul>
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+        </ul>
       
-    <div class="card text-center">
-            <div class="jumbotron bg-primary">
-                <h1 class="text-bold text-light">(Actual) Sh*t They Say</h1>
-                <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
-            </div>
-          <!--------- <a href="#" class="btn btn-primary">Next</a> --->
-        <!---- 
-        <div class="card-footer text-muted">
-          2 days ago
-        </div> ---->
-    </div>
-
-    <!---- profile pictures  with name and funny interjecture 
-        1st photo on left second on right third on left etc etc-->
-
-    <div class="card mt-2">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-3">
-                <!--- need to wrap this in a link to the page -->
-            <img class="img-responive thumbnail-circle" src="media-files/trump-scary.jpg" alt="bright-orange-man" height="250" width="250">
-                <!---- need to center this text and make it larger 
-                idea: sperate the photo and name by cols within the row 
-                that may allow me to modify each component easier --->
-            </div>
-            <div class="col-9">
-                    <!--- need to wrap this in a link to the page -->
-                    <p class="text-left subject-name">Donald J. Trump</p>
-            </div>
-          </div>
+        <div class="card text-center">
+                <div class="jumbotron bg-primary">
+                    <h1 class="text-bold text-light">(Actual) Sh*t They Say</h1>
+                    <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
+                </div>
+            <!--------- <a href="#" class="btn btn-primary">Next</a> --->
+            <!---- 
+            <div class="card-footer text-muted">
+            2 days ago
+            </div> ---->
         </div>
 
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>Can you believe the Sh*t Trump just said?</p>
-                <a href="trumpsays.html" class="btn btn-primary">Click here for Trump quotes</a>
-            </blockquote>            
-        </div>
-    </div>
+        <!---- profile pictures  with name and funny interjecture 
+            1st photo on left second on right third on left etc etc-->
 
-    <div class="card mt-2">
-        <div class="card-body">
-          <div class="row">
-              <div class="col-9">
-                    <!--- need to wrap this in a link to the page -->
-                      <p class="text-center subject-name">Joe Biden</p>
-              </div>
-              <div class="col-3">
-                  <!--- need to wrap this in a link to the page -->
-            <img class="thumbnail-circle img-responsive" src="media-files/biden-confused.jpg" alt="very-old-man" height="250" width="250">
-            <!---- need to center this text and make it larger 
-                    idea: sperate the photo and name by cols within the row 
-                    that may allow me to modify each component easier --->
-              </div>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                
-            </div>
-            <div class="col-4">
+        <!--- Donald Trump Card-->
+        <div class="container-fluid">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                        <img class="img-responive thumbnail-circle" src="media-files/trump-scary.jpg" alt="bright-orange-man" height="250" width="250">
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-8">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="text-left text-light subject-name-right btn bg-primary">Donald J. Trump</p>
+                        </div>
+                    </div>
+                </div>
+        
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
-                        <p>Joe, what the hell are you talking about?</p>
-                        <!---- maybe i can align this to the right in order to keep the proper spacing between these two components ---->
-                        <a href="bidensays.html" class="btn btn-primary align-right">Click here for Biden quotes</a> 
-                    </blockquote>
-                </div> 
+                        <p>Can you believe the Sh*t Trump just said?</p>
+                        <a href="trumpsays.html" class="btn btn-primary">Click here for Trump quotes</a>
+                    </blockquote>            
+                </div>
             </div>
         </div>
 
-        <div class="card mt-2">
-            <div class="card-body">
-              <div class="row">
-                <!-- need to wrap this in a link to the page -->
-                <img class="thumbnail-circle img-responsive" src="media-files/barack-bigsmile.jpg" alt="Barack Obama" height="250" width="250">
-                <!---- need to center this text and make it larger 
-                        idea: sperate the photo and name by cols within the row 
-                        that may allow me to modify each component easier --->
-
-                <!--- need to wrap this in a link to the page -->
-                  <p class="text-left subject-name">Barack Obama</p>
-              </div>
+        <!---- Joe Biden Card -->
+        <div class="container-fluid">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <!--- when on smaller screen, the subject name moves to the top of the photo becuase of the col arragnment. We must find a way to make the subject name go beneath the photo. 
+                        Potential a  nested container with alignment??? 
+                        Maybe flex  ------->
+                        <div class="col-sm-8">
+                            <!--- need to wrap this in a link to the page -->
+                            <p class="text-left text-light subject-name-right btn bg-primary">Joe Biden</p>
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                            <img class="img-responive thumbnail-circle" src="media-files/biden-confused.jpg" alt="bright-orange-man" height="250" width="250">
+                            <br>
+                            <br>
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                            <blockquote class="blockquote mb-0">
+                                <p>Joe, what the hell are you talking about?</p>
+                                <!---- maybe i can align this to the right in order to keep the proper spacing between these two components ---->
+                                <a href="bidensays.html" class="btn btn-primary align-right">Click here for Biden quotes</a> 
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
-            <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                    <p>The coolest American president.. wait is he American?</p>
-                    <a href="#" class="btn btn-primary">Coming Soon</a>
-                </blockquote>            
+        </div>
+
+        <!---- barack obama card --->
+        <div class="container-fluid">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                        <img class="img-responive thumbnail-circle" src="media-files/barack-bigsmile.jpg" alt="barack obama" height="250" width="250">
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-8">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="text-left text-light subject-name-right btn bg-primary">Barack Obama</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Arguable the coolest American --- wait, is he American?</p>
+                        <a href="trumpsays.html" class="btn btn-primary">Coming Soon</a>
+                    </blockquote>            
+                </div>
             </div>
         </div>
         <!---------- 
