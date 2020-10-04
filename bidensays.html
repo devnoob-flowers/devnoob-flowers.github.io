@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Stylesheet link -->
     <link href="app.css" rel="stylesheet">
 
     <!--- Stylesheet for overriding css -->
     <link href="custom.css" rel="stylesheet">
+    <link href="card.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -24,35 +27,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Scope+One&display=swap" rel="stylesheet">
 
     <title>Sh*t Joe Biden Says</title>
+
   </head>
   <body>
-
-    <!----- need to write links to different pages -->
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active text-dark" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Contact</a>
-      </li>
-    </ul>
+<!--- need to improve nav bar -->
+      <!--- ideas: dark navbar and buttons moving user to other pages -->
+        <ul class="nav navbar-dark bg-dark justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html">Contact</a>
+            </li>
+        </ul>
       
-    <div class="card text-center">
-        <div class="card-header">
-          <h1>(Actual) Sh*t Politicians Say</h1>
+        <div class="jumbotron bg-primary text-center">
+                    <a href="index.html"><h1 class="text-bold text-light title-text">(Actual) Sh*t They Say</h1></a>
+                    <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">(Actual) Sh*t Trump Says</h5>
-          <p class="card-text">Words from the president of the United States of America</p>
-          <a href="#" class="btn btn-primary">Next</a>
-        </div>
-        <!---- 
-        <div class="card-footer text-muted">
-          2 days ago
-        </div> ---->
+     
+    <!---- page buttons -->
+    <div class="container">
+      <div class="row">
+          <div class="col"></div>
+          <div class="col">
+              <ul class="nav justify-content-between">
+                  <li class="nav-item">
+                      <a href="trumpsays.html" class="btn btn-primary">Previous</a>
+                  </buttonPrevious<>
+                  <li class="nav-item">
+                      <a href="index.html" class="btn btn-primary">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="trumpsays.html" class="btn btn-primary">Next</a>
+                  </li>
+              </ul>   
+
+          </div>
+          <div class="col"></div>
+      </div>
     </div>
 
     <div class="card mt-2">
@@ -145,8 +161,22 @@
         </div>
       </div>
 
-          
+      <div class="jumbotron bg-primary">
+            <p class="card-text text-center text-light">(Actual) quotes of what our leaders say</p>
       </div>
+
+      <ul class="nav bg-dark justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active text-light" href="index.html">Terms of Service</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="about.html">(Actual) Sh*t They Say</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">Contact</a>
+        </li>
+      </ul> 
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

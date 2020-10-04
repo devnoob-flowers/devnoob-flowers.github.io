@@ -22,3 +22,7 @@ h1, p, h3, h5 {
     margin-top: 10%;
 }
 
+.border-m {
+    border: black;
+    border-style: solid;
+}
