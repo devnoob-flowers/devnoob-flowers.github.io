@@ -12,13 +12,13 @@ h1, p, h3, h5 {
     font-size: 4vw;
     font-style: italic;
 
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .subject-name-left {
-    font-size: 5vw;
+    font-size: 4vw;
     font-style: italic;
-    text-align: center;
-    margin-top: 8%;
+
+    margin-top: 10%;
 }
 
