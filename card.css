@@ -26,3 +26,7 @@ h1, p, h3, h5 {
     border: black;
     border-style: solid;
 }
+
+.jumbo-m0 {
+    margin: 0;
+}
