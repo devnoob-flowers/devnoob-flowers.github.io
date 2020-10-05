@@ -29,8 +29,8 @@
     <title>(Actual) Sh*t They Say</title>
   </head>
   <body>
-    <!--- need to improve nav bar -->
-      <!--- ideas: dark navbar and buttons moving user to other pages -->
+    <!--- NAVBAR -->
+    <!--- ideas: dark navbar and buttons moving user to other pages -->
         <ul class="nav navbar-dark bg-dark justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active text-light" href="index.html">Home</a>
@@ -42,13 +42,13 @@
                 <a class="nav-link text-light" href="contact.html">Contact</a>
             </li>
         </ul>
-        <!--- modified jumbtron and h1 class display -->
+    <!--- JUMBOTRON -->
         <div class="jumbotron jumbotron-fluid jumbo-m0 bg-primary text-center">
                     <a href="index.html"><h1 class="text-bold text-light display-3">(Actual) Sh*t They Say</h1></a>
                     <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
         </div>
 
-        <!---- contact card -->
+    <!---- contact card -->
         <div class="container">
             <div class="card mt-2">
                 <div class="card-body">
@@ -56,7 +56,7 @@
                         <div class="col-sm"></div>
                         <div class="col-sm-9">
                             <!--- need to wrap this in a link to the page -->
-                            <p class="text-center text-light subject-name-right btn bg-primary">Do you have some Sh*t to say?</p>
+                            <p class="text-center text-light subject-name-right btn bg-primary">(About) the creator of this Sh*t</p>
                     </div>
                         <div class="col-sm"></div>
                     </div>
@@ -64,88 +64,46 @@
         
                 <div class="card-body text-center">
                     <blockquote class="blockquote mb-0">
-                        <p>(Thanks) for visiting the site. Do you have some Sh*t to share with us. Drop us a note and say hello. </p>
+                        <p>(Thanks) for vising the page. This had been a wild year in 2020. This page is made to bring to your attention the ridiculousness of our leaders. I made this in a <strong><cite>comedic</cite></strong> sense. Please do not take anything on this website too seriously. These are the most factual quotes and/or photos I could find with <cite>slight</cite> comedic twists.</p>
                         <a href="index.html" class="btn btn-primary">Back to Home</a>
+                    </blockquote>          
+                </div>
+            </div>
+        </div>
+
+        <!--- ABOUT CARD -->
+        <!---- barack obama card --->
+        <div class="container">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <!--- need to wrap this in a link to the page -->
+                        <img class="img-responsive thumbnail-circle" src="media-files/creator-photo.jpg" alt="blake flowers" height="250" width="250">
+                            <!---- need to center this text and make it larger 
+                            idea: sperate the photo and name by cols within the row 
+                            that may allow me to modify each component easier --->
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm-6">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="text-left text-light subject-name-right btn bg-primary">Blake Flowers</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Who in the Sh*t is this guy?</p>
+                        <a href="contact.html" class="btn btn-primary">Contact</a>
                     </blockquote>            
                 </div>
             </div>
         </div>
 
-        <!--- FORM w/ validation -->
-        <div class="container">
-            <div class="card mt-2">
-                <div class="card-body">
-                    <form>
-                        <div class="form-row">
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer01">First name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer01" value="" placeholder="First Name" required>
-                            <div class="valid-feedback">
-                              Looks good!
-                            </div>
-                          </div>
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer02">Last name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer02" value="" placeholder="Last Name" required>
-                            <div class="valid-feedback">
-                              Looks good!
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-row">
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer03">City</label>
-                            <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                            <div id="validationServer03Feedback" class="invalid-feedback">
-                              Please provide a valid city.
-                            </div>
-                          </div>
-                          <div class="col-md-3 mb-3">
-                            <label for="validationServer04">State</label>
-                            <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-                              <option selected disabled value="">Choose...</option>
-                              <option>Alabama</option>
-                              <option>Alaska</option>
-                              <option>Arkansas</option>
-                            </select>
-                            <div id="validationServer04Feedback" class="invalid-feedback">
-                              Please select a valid state.
-                            </div>
-                          </div>
-                          <div class="col-md-3 mb-3">
-                            <label for="validationServer05">Zip</label>
-                            <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-                            <div id="validationServer05Feedback" class="invalid-feedback">
-                              Please provide a valid zip.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="validationTextarea">Textarea</label>
-                            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="What's on your mind?" required></textarea>
-                            <div class="invalid-feedback">
-                              Please enter a message in the textarea.
-                            </div>
-                          </div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
-                      </form>
-                </div>
-            </div>
-        </div>
-
-        <!--- SECOND FORM idea-->
-        <form>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
-          </div>
-        </form>
-
-        <!---- FOOTER --->
+        <!--- FOOTER --->
         <div class="jumbotron jumbotron-fluid jumbo-m0 bg-primary text-center">
           <div class="container-fluid">
               <p class="card-text text-light">(Actual) quotes of what our leaders say</p>
