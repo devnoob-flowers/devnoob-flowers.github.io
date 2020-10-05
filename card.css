@@ -30,3 +30,8 @@ h1, p, h3, h5 {
 .jumbo-m0 {
     margin: 0;
 }
+
+.jumbo-headings {
+    font-size: 2.5vw;
+    font-style: italic;
+}
