@@ -56,7 +56,7 @@
                         <div class="col-sm"></div>
                         <div class="col-sm-9">
                             <!--- need to wrap this in a link to the page -->
-                            <p class="text-center text-light subject-name-right btn bg-primary">Do you have some Sh*t to say?</p>
+                            <p class="text-center text-light subject-name-right display-3 btn bg-primary">Do you have some Sh*t to say?</p>
                     </div>
                         <div class="col-sm"></div>
                     </div>
@@ -64,86 +64,17 @@
         
                 <div class="card-body text-center">
                     <blockquote class="blockquote mb-0">
-                        <p>(Thanks) for visiting the site. Do you have some Sh*t to share with us. Drop us a note and say hello. </p>
-                        <a href="index.html" class="btn btn-primary">Back to Home</a>
+                        <p>(Thanks) for visiting the site. Do you have some Sh*t to share with us? Drop us a note and say hello.</p>
+                        <div>
+                          <a href="mailto:bdflowerss@icloud.com"><button class="btn btn-primary" type="submit">Send a message</button></a>
+                          <a href="index.html"><button class="btn btn-primary" type="submit">Back to Home</button></a>
+                        </div>
                     </blockquote>            
                 </div>
             </div>
         </div>
 
-        <!--- FORM w/ validation -->
-        <div class="container">
-            <div class="card mt-2">
-                <div class="card-body">
-                    <form>
-                        <div class="form-row">
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer01">First name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer01" value="" placeholder="First Name" required>
-                            <div class="valid-feedback">
-                              Looks good!
-                            </div>
-                          </div>
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer02">Last name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer02" value="" placeholder="Last Name" required>
-                            <div class="valid-feedback">
-                              Looks good!
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-row">
-                          <div class="col-md-6 mb-3">
-                            <label for="validationServer03">City</label>
-                            <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                            <div id="validationServer03Feedback" class="invalid-feedback">
-                              Please provide a valid city.
-                            </div>
-                          </div>
-                          <div class="col-md-3 mb-3">
-                            <label for="validationServer04">State</label>
-                            <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-                              <option selected disabled value="">Choose...</option>
-                              <option>Alabama</option>
-                              <option>Alaska</option>
-                              <option>Arkansas</option>
-                            </select>
-                            <div id="validationServer04Feedback" class="invalid-feedback">
-                              Please select a valid state.
-                            </div>
-                          </div>
-                          <div class="col-md-3 mb-3">
-                            <label for="validationServer05">Zip</label>
-                            <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-                            <div id="validationServer05Feedback" class="invalid-feedback">
-                              Please provide a valid zip.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="validationTextarea">Textarea</label>
-                            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="What's on your mind?" required></textarea>
-                            <div class="invalid-feedback">
-                              Please enter a message in the textarea.
-                            </div>
-                          </div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
-                      </form>
-                </div>
-            </div>
-        </div>
-
-        <!--- SECOND FORM idea-->
-        <form>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
-          </div>
-        </form>
+        <!--- FORM - MAILTO: -->
 
         <!---- FOOTER --->
         <div class="jumbotron jumbotron-fluid jumbo-m0 bg-primary text-center">
@@ -172,5 +103,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    </div>
 </html>
