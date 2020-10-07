@@ -31,7 +31,7 @@
   <body>
       <!--- need to improve nav bar -->
       <!--- ideas: dark navbar and buttons moving user to other pages -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <!---<a class="navbar-brand" href="#">(Actual)<a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,17 +39,35 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <!----------
+        <nav class="nav navbar-expand-md navbar-dark bg-dark flex-column flex-md-row justify-content-end">
+            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="navContent" aria-controls="navContent" aria-expands="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <div class="nav-item dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu" aria-labelledby="dropdown">
+                        <a class="nav-link dropdown-toggle active text-light" href="index.html">Home</a>
+                    <a class="nav-link text-light" href="about.html">About</a>
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </div>  
+                </div>
+            </div>
+        </nav> 
+            ----->
+
+        
 
         <!--- modified jumbtron and h1 class display -->
         <div class="jumbotron jumbotron-fluid jumbo-m0 bg-primary text-center">
@@ -66,63 +84,86 @@
         <div class="container">
             <div class="card mt-2">
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-3">
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-sm">
                             <!--- need to wrap this in a link to the page -->
                             <img class="img-responsive thumbnail-circle" src="media-files/trump-scary.jpg" alt="bright-orange-man" height="250" width="250">
                             <!---- need to center this text and make it larger 
-                            idea: sperate the photo and name by cols within the row 
-                            that may allow me to modify each component easier --->
+                                idea: sperate the photo and name by cols within the row 
+                                that may allow me to modify each component easier --->
                         </div>
                         <div class="col-sm">
-                            
-                        </div>
-                        <div class="col-sm-6">
                             <!--- need to wrap this in a link to the page -->
-                            <p class="text-left text-light subject-name-right btn bg-primary">Donald J. Trump</p>
+                            <p class="subject-name-r text-light mt-5 mb-0 btn bg-primary">Donald J. Trump</p>
                         </div>
                     </div>
                 </div>
         
                 <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                            <p>Can you believe the Sh*t Trump just said?</p>
+                    <div class="row">
+                        <blockquote class="blockquote ml-3">
+                            <div class="card-text mb-2">
+                                <p>Can you believe the Sh*t Trump just said?</p>
+                            </div>
                             <a href="trumpsays.html" class="btn btn-primary">Click here for Trump quotes</a>
-                    </blockquote>            
+                    </blockquote>   
+                    </div>         
                 </div>
             </div>
         </div>
+        <!---- end of card -->
+
+        <!-- example using proper card body vs other-->
+        <div class="container">
+            <!-- example 1 - The Kitchen Sink -->
+            <div class="card" style="">
+                <img class="img-responsive thumbnail-circle" src="media-files/trump-scary.jpg" alt="bright-orange-man" height="250" width="250">
+                <div class="card-body">
+                    <h5 class="card-title subject-name-r text-light btn bg-primary">Donald J. Trump</h5>
+                    <blockquote class="blockquote">
+                        <p class="card-text">Can you believe the Sh*t Trump just said?</p>
+                    </blockquote>
+                    <a href="trumpsays.html" class="btn btn-primary">Click here for Trump quotes</a>
+                </div>
+            </div>
+        </div>
+        <!---- end of example -->
 
         <!---- Joe Biden Card -->
         <div class="container">
             <div class="card mt-2">
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row d-flex justify-content-around align-items-center">
                         <!--- we have problems in the overriding css that is pushing components of of their supposed margins-->
-                        <div class="col-sm">
-                            
+                        <div class="col-sm-6">
+                            <div class="d-none d-md-block col-sm-6">
+                                <!--- need to wrap this in a link to the page -->
+                                <p class="subject-name-r text-light mb-0 btn bg-primary">Joe Biden</p>
+                            </div>
                         </div>
-                        <div class="d-none d-md-block col-sm-4">
-                            <!--- need to wrap this in a link to the page -->
-                            <p class="text-light subject-name-left btn bg-primary">Joe Biden</p>
-                        </div>
-                        <div class="col-sm">
+                        <!--- class shows up md+ screen size -->
+                        <div class="col-sm-6">
                             <!--- need to wrap this in a link to the page -->
                             <img class="img-responsive thumbnail-circle" src="media-files/biden-confused.jpg" alt="bright-orange-man" height="250" width="250">
                             <br>
                             <br>
-                            <!---- need to center this text and make it larger 
-                            idea: sperate the photo and name by cols within the row 
-                            that may allow me to modify each component easier --->
-                            <div class="d-md-none col-sm-4">
+                            
+                            <!--- item show up at sm -->
+                            <div class="d-md-none col-sm-4 d-flex ">
                                 <!--- need to wrap this in a link to the page -->
-                                <p class="text-light subject-name-left btn bg-primary">Joe Biden</p>
+                                <p class="text-light subject-name-l btn bg-primary">Joe Biden</p>
                             </div>
-                            <blockquote class="blockquote mb-0">
-                                <p>Joe, what the hell are you talking about?</p>
-                                <!---- maybe i can align this to the right in order to keep the proper spacing between these two components ---->
-                                <a href="bidensays.html" class="btn btn-primary align-right">Click here for Biden quotes</a> 
-                            </blockquote>
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <blockquote class="blockquote">
+                                        <div class="mb-2">
+                                            <p>Joe, what the hell are you talking about?</p>
+                                        </div>
+                                        <a href="trumpsays.html" class="btn btn-primary">Click here for Biden quotes</a>
+                                </blockquote>   
+                                </div>         
+                            </div>
                         </div>
                     </div>
                 </div>

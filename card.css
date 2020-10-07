@@ -15,11 +15,21 @@ h1, p, h3, h5 {
     margin-top: 10%;
 }
 
+.subject-name-r {
+    font-size: 4vw;
+    font-style: italic;
+}
+
 .subject-name-left {
     font-size: 4vw;
     font-style: italic;
 
     margin-top: 10%;
+}
+
+.subject-name-l {
+    font-size: 4vw;
+    font-style: italic;
 }
 
 .border-m {
